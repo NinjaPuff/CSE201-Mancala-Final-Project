@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Mancala</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- style tags here in case we want some manual tweaks made to W3 CSS -->
+  <style>
+  w3-light-blue {
+    border-radius:25px !important;
+  }
+  diagram {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+</style>
+<!-- Using w3 CSS for this page for simplicity's sake -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<!-- Here begins the body of the page -->
+<body>
+  <header class="w3-container">
+    <h2>Mancala - Team E</h2>
+  </header>
+
+
+  <div class="w3-row">
+    <div class="w3-container w3-quarter">
+    </div>
+    <div class=" w3-container w3-half">
+      <img src="Mancala_Board_Figure.png" class="diagram" alt="Diagram of a Mancala board with 6 wells">
+    </div>
+    <div class="w3-container w3-quarter">
+    </div>
+  </div>
+
+
+
+  <article class="w3-container w3-blue">
+
+    <h1>The Rules</h1>
+    <ul class="w3-ul w3-white w3-card-4">
+      <li>
+        <p class=""> Your bins are the lowest set (shown here in white)
+          and numbered 1 - 6 in the diagram below. Your opponent's bins are numbered 7 - 12. </p>
+        </li>
+        <li>
+          <p class=""> The large bins on the left and right sides of the board are called
+            Mancalas: you score by moving stones into your Mancala</p>
+          </li>
+          <li>
+            <p class=""> The game starts with 4 stones in each bin numbered 1 - 12</p>
+          </li>
+          <li>
+            <p class=""> The first player is randomly chosen (either you or the computer)</p>
+          </li>
+          <li>
+            <p class="">When it's your turn to move, select one of your bins by clicking on it: this will
+              empty that well and, moving counterclockwise, deposit one stone in each well (including your Mancala, but not your opponent's)</p>
+              <ul class="w3-ul w3-card-4">
+                <li>
+                  <p class=""> If the last stone lands in your Mancala, you get another turn </p>
+                </li>
+                <li>
+                  <p class=""> If there are enough stones in the selected well to go all the way around
+                    the board, the original well will be skipped </p>
+                  </li>
+                  <li>
+                    <p class=""> At the end of the turn, the seleted well will always be empty </p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p class=""> You can never move a stone into your opponent's Mancala: it will be skipped over </p>
+              </li>
+              <li>
+                <p class=""> If the last stone in a play is placed in an empty bin on your side of the board,
+                  all of the stones in your opponent’s bin that is directly opposite (as well as the stone placed in the
+                  last bin) move to your Mancala </p>
+                </li>
+                <li>
+                  <p class=""> The game ends when one player's bins are all empty: the other player then captures all
+                    the remaining stones on their side and moves them into their Mancala. The player with the most
+                    stones in their Mancala at the end of the game wins</p>
+                  </li>
+                </ul>
+                <cite class="w3-container"> Rules from Dr. Sobel's project expectations document </cite>
+              </article>
+
+              <article class="w3-container">
+                <h3> Team <h3>
+                  <h4>
+                    <ul class="w3-ul w3-card-4">
+                      <li class="w3-hover-blue"> Molly Carroll: Team Leader </li>
+                      <li class="w3-hover-blue"> Scott Harris: GUI/Game Programmer </li>
+                      <li class="w3-hover-blue"> Steven Yu: AI/Game Programmer </li>
+                      <li class="w3-hover-blue"> Wyatt Goeks: Documentation/Testing </li>
+                    </ul>
+                  </h4>
+                </article>
+                <!-- Footer goes here if we want one -->
+                <footer>
+                </footer>
+
+              </body>
+              </html>
